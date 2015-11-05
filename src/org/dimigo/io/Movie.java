@@ -105,7 +105,7 @@ public class Movie {
 		return actors;
 	}
 	/**
-	 * @param actor the actor to set
+	 * @param actors the actor to set
 	 */
 	public void setActors(List<String> actors) {
 		this.actors = actors;
