@@ -14,8 +14,8 @@ package org.dimigo.thread;
 public class Race {
 
     public static void main(String[] args) {
-        Runner runner1 = new Runner("홍길동");
-        Runner runner2 = new Runner("홍길순");
+        Thread runner1 = new Runner("홍길동");
+        Thread runner2 = new Runner("홍길순");
 
         System.out.println("main thread start");
 
@@ -25,5 +25,4 @@ public class Race {
         System.out.println("main thread stop");
 
     }
-
 }
