@@ -19,10 +19,12 @@ public class Race {
 
         System.out.println("main thread start");
 
+        runner1.setPriority(Thread.MAX_PRIORITY);
+        runner2.setPriority(Thread.MAX_PRIORITY);
+
         runner1.start();
         runner2.start();
 
         System.out.println("main thread stop");
-
     }
 }
